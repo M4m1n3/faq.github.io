@@ -8,7 +8,7 @@
     </head>
     <body>
         <header>
-            <a href=""><img src="media/icons8-bulle-de-conversation-avec-points-48.png" alt=""><p>questions <br> suplémentaires ?</p></a>
+            <a href="https://shs.univ-grenoble-alpes.fr/l-ufr-shs/le-personnel-administratif/les-gestionnaires-de-scolarite-de-licence-194115.kjsp"><img src="media/icons8-bulle-de-conversation-avec-points-48.png" alt=""><p>questions <br> suplémentaires ?</p></a>
             <h1>InfoCampusSHS</h1>
             <form action="">
                 <input id="bar" type="text" name="" id="">
@@ -49,6 +49,76 @@
             </div>
             
         </div>
+
+
+        <h2>Questions Fréquentes :</h2>
+
+        <button class="accordion">Où récupérer ma carte étudiante et/ou l'autocollant de l'année
+        </button>
+        <div class="panel">
+          <p>le lieux change chaque année, surveillez les notifications moodle, regardez dans information générale, et le cas échéant demandez au membres de votre BDE.
+        </p>
+        </div>
+        
+        <button class="accordion">Où je peux trouver le formulaire de l'inscription
+        </button>
+        <div class="panel">
+            <p>https://www.messervices.etudiant.gouv.fr/envole/</p>
+        </div>
+        
+        <button class="accordion">Je me demande quels sont les coefficients des ces TP/CC/UE ?
+        </button>
+        <div class="panel">
+            <p>ces informations sont disponible dans les MCCC </p>
+         </div>
+         <button class="accordion">Comment je relie mon mail étudiant à mon mail perso ?        </button>
+        <div class="panel">
+            <p>https://services-numeriques-etudiants.univ-grenoble-alpes.fr/medias/fichier/redirection-messagerie-etudiant_1513096235011-pdf?INLINE=FALSE
+            </p>
+         </div> 
+
+         <button class="accordion">Où est-ce que je peux voir mes notes ?</button>
+         <div class="panel">
+             <p>https://cours.univ-grenoble-alpes.fr/grade/report/overview/index.php</p>
+
+          </div> 
+          <button class="accordion">Où puis-je voir mon emploi du temps ?</button>
+          <div class="panel">
+              <p>https://leo.univ-grenoble-alpes.fr/leo-intranet-des-etudiants/emploi-du-temps-1065728.kjsp?RH=8631794101180600</p>
+           </div> 
+           <button class="accordion"></button>
+           <div class="panel">
+               <p></p>
+            </div> 
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <p></p>
+             </div> 
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+        
+
+
+
+
+
+
+
         <footer>
             <div>
                 <h1>
