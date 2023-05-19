@@ -3,6 +3,10 @@
   font-family: "arial";
   text-decoration: none;
 }
+.modalite {
+  width: 200px;
+  height: 190px;
+}
 .capture {
   width : 800px;
   height : 180px;
