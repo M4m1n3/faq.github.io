@@ -3,11 +3,11 @@
   font-family: "arial";
   text-decoration: none;
 }
-.carte {
+.capture {
   width : 800px;
   height : 180px;
   display: flex;
-}
+  }
 body {
   display: flex;
   flex-direction: column;
