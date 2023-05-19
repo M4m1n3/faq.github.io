@@ -3,9 +3,14 @@
   font-family: "arial";
   text-decoration: none;
 }
-
+#qst {
+text-align: center;
+}
+#main2 {
+  background-color: #1ca39c;
+}
 .accordion {
-  background-color: #eee;
+  background-color: #98f1ef;;
   color: #444;
   cursor: pointer;
   padding: 18px;
